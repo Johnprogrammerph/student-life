@@ -1,0 +1,52 @@
+so eto po yung mga possible na gawin pa sa webpage natin na puwede nyo po kunin para ma improve and for the database naman siguro pagtulungan nalang po natin lahat kasi maski po akao wala ako idea how to combined database in webpage 
+
+
+-so for maindashboard or home guys yung need nalang gawin is improvement 
+like for text dapat readable sya and puwede din po mag add ng another content if you want po and for the background images kayo po if ano po yung want nyo or sa tingin nyo mas okay background images or color 
+
+-for about naman po eto palang yata yung goods na I think and yung images na 2 blank pa, pa lagay nalang po sa folder  nakay Ms.jacqueline po yung copy non and for button na Fact checking wala pa sya content pero may pop up na sya lalagyan nalang ng content for learn more goods na po may content na and nag pop na po yung content
+
+-for article part naman po may provide na 5 images na po na puwede po lagayn ng link and i think url nalang and ontig design nalang po dito and for the background images or color naman po same nalang din sa maindashboard kung ano po yung sa tingin nyo na mas okay and goods basta po align nyo po sa pinaka background ng pinaka webpage po natin then si Ms.Noesa po my idea na po dito and need i add daw po 
+
+-for Contact naman po po dito na po papasok yung sa database po so it's either excel or sql database or yung suggestion po ni kuya ryu 
+and for design naman po dito siguro i same ko nalang sya dun sa register and log in part then sa background siguro okay na pero nasa inyo parin po if ano mas okay na design and background images and siguro sa part na to ako nalang kasi medyo familiar nako sa nagawa register and login pero if eto po ma pick nyo gusto nyo po gawin or improve okay lang din naman po
+
+-so for account naman goods narin naman to yung register if client mag register and mag login and after maka pag login sa account mag direct naman sya sa dashboard ng client so makikita ng client yung list of researcher, adviser or "consultant sa part na to mag pick yung client ng consultant kung sino then sa baba nung pinaka profile ng mga researcher, adviser or "consultant may button daw na mag redirect sa form for asking consultation advice and this suggeted of Ms.Noesa so part narin to may database narin to kasi mag kakaron ng Interaction between user and consultant and also sa part na to madami pa need improve kasi parang style portal po yung sa part na to pero yung satin siguro gawin nalang natin madali 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

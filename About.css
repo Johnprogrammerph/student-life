@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600&family=Roboto:wght@300;400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  
+}
+.about{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+}
+.about .main img{
+    width: 400px;
+    max-width: auto;
+    height: auto;
+    padding: 0 10px;
+
+}
+
+.all-text{
+    width: 600px;
+    max-width: 100%;
+    padding:  0 10px;
+
+}
+
+.main{
+    width: 1250px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.all-text h4{
+    font-family: 'Poppins', sans-serif;
+    font-size: 65px;
+    color: #fff;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.all-text h1{
+ 
+    font-family: 'Poppins', sans-serif;
+    font-size: 50px;
+    color: #fff;
+    letter-spacing: 1px;
+    font-weight: 700;
+    margin-bottom: 20px;
+
+}
+
+.all-text p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: #eee1e1;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+
+.btn button{
+    background: rgb(211, 133, 61);
+    padding: 20px 34px;
+    font-size: 18px;
+    font-family: bold;
+border: none;
+outline: none;
+box-shadow: 0px 32px 32px 0px ;
+margin-left: 20px;
+}
+
+.btn button:hover{
+   background-color: blue;
+   color: white;
+   transition: 3s;
+   cursor: pointer;
+}
+
+.btn .btn2{
+    background: rgb(240, 85, 85);
+    color: white;
+}
+
+@media screen and(max-width:1250px) {
+
+    .about{
+        width: 100%;
+        height: auto;
+        padding: 60px 0;
+    }
+
+    .all-text{
+        text-align: center;
+        margin: 40px;
+    }
+}
+@media screen and(max-width:650px){
+     
+    .about .main img{
+        margin-bottom: 35px;
+    }
+    .all-text h1{
+        font-size: 45px;
+    }
+}
+
+
+    /* Your existing CSS styles */
+
+    .popup {
+        display: none;
+        position: fixed;
+        margin-top: 300px;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+        justify-content: center;
+        align-items: center;
+    }
+
+    .popup-content {
+        background-color: #fff;
+        padding: 90px;
+        border-radius: 5px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        max-width: 700px;
+        margin: auto;
+        text-align: center;
+        margin-top: -90px;
+    }
+
+    .close {
+        color: #aaa;
+        float: right;
+        font-size: 20px;
+        font-weight: bold;
+        cursor: pointer;
+    }
+
+    .close:hover {
+        color: red;
+    }
+
+
+    /* nav bar */
+
+    header {
+        background-color:rgb(59, 59, 190);
+        color: #fff;
+        display: flex;
+        margin-top: 20px;
+        justify-content: space-between;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 10;
+        margin-top: 30px;
+
+      }
+      
+      .header-content {
+        margin-right: 50px;
+        display:flex;
+        align-items: center;
+      }
+      
+      h1 {
+        margin-left: 50px;
+      }
+      
+      .navbar {
+        font-size: 20px;
+        list-style-type: none;
+        overflow: hidden;
+        text-align: right;
+      }
+      
+      .navbar li {
+        display: inline-block;
+        margin-right: 20px;
+      }
+      
+      .navbar li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+      
+      .navbar li a:hover {
+        border-radius: 30px;
+        background-color: black;
+        color: black;
+        transition: background-color 
+          0.5s ease, color 0.5s ease;  
+      }
+      
+      .menu-toggle {
+        margin-top: 20px;
+        display: none;
+        flex-direction: column;
+        cursor: pointer;
+        position: fixed;
+        top: 10px;
+        left: 10px;
+        z-index: 100;
+      }
+      
+      .menu-toggle:hover {
+        box-shadow: 0px 0px 50px black;
+      }
